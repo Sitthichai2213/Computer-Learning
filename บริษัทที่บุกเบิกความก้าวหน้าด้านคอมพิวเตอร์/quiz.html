@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Computer History</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <style>
+      body {
+        background-image: url("https://png.pngtree.com/background/20230616/original/pngtree-faceted-abstract-background-in-3d-with-shimmering-iridescent-metallic-texture-of-picture-image_3653595.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      .content-section {
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+        padding: 20px;
+        margin: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      .navbar-brand img {
+        height: 50px;
+      }
+      .section-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 15px;
+      }
+      .section-content {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.php">
+          <img
+            src="https://pm1.aminoapps.com/7185/306a535788ad470ff525de5545ce48257e22493er1-400-400v2_uhq.jpg"
+            alt="Brand Logo"
+          />
+        </a>
+        <a class="navbar-text" href="http://127.0.0.1:5500/หน้าหลัก/h2.html">Computer History</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link active" href="http://127.0.0.1:5500/หน้าหลัก/h2.html">หน้าหลัก</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">อ่านเพิ่มเติมเกียวกับคอมพิวเตอร์</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/ซอฟต์แวร์/quiz.html">ซอฟต์แวร์</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/ปัญญาประดิษฐ์/quiz.html">ปัญญาประดิษฐ์</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/บริษัทที่บุกเบิกความก้าวหน้าด้านคอมพิวเตอร์/quiz.html">บริษัทที่บุกเบิกความก้าวหน้าด้านคอมพิวเตอร์
+
+                    </a></li>
+                    
+                </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">ติดต่อเรา</a></li>
+            <button id="theme-switch">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z"/></svg>
+            </button>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="content-section">
+      <p class="section-title text-center">บริษัทที่บุกเบิกความก้าวหน้าด้านคอมพิวเตอร์</p>
+      <div class="content-section">
+        <p class="section-title text-center">ซอฟต์แวร์</p>
+        
+        <p class="section-content text-center">
+            การพัฒนาความสามารถของคอมพิวเตอร์ทั้งทางด้านฮาร์ดแวร์ ซอฟต์แวร์ ส่วนใหญ่เป็นผลงานของบริษัทหรือสถาบันใหญ่ ๆ 
+            ซึ่งได้ทำการวิจัย ทดลอง ก่อนที่จะออกสู่ตลาดให้พวกเราได้ใช้งาน แต่ละบริษัทเหล่านี้ล้วนเป็นผู้สร้างพัฒนาการอันสำคัญ (milestone)
+             ต่อวงการคอมพิวเตอร์ ตารางด้านล่างมีโลโก้ของบริษัทพร้อมกับชื่อบริษัทเรียงลำดับจาก A - Z ครับ"
+      </p>
+      
+    </div>
+
+
+    <div class="content-section d-flex align-items-center">
+      <img
+        style="width: 25%; border-radius: 10px"
+        src="https://il.mahidol.ac.th/e-media/computer/evolution/logos/3M_worldwide.gif"
+        alt="Univac 1"
+      />
+      <div class="ms-3">
+        <div class="section-title">
+            3M United Kingdom Ltd
+        </div>
+        
+      </div>
+    </div>
+
+
+    <div class="content-section d-flex align-items-center">
+      <img
+        style="width: 25%; border-radius: 10px"
+        src="https://il.mahidol.ac.th/e-media/computer/evolution/logos/adobe_logo.gif"
+        alt="Univac 1"
+      />
+      <div class="ms-3">
+        <div class="section-title">บริษัท Adobe Systems</div>
+        <p class="section-content">
+          <i
+            >เป็นผู้นำในด้านกราฟิกบนคอมพิวเตอร์ โปรแกรมที่อยู่ในเค่าย adobe เช่นโปรแกรม photoshop ซึ่งเป็นโปรแกรมยอดนิยมในการปรับแต่งรูปภาพ</i
+          >
+        </p>
+      </div>
+    </div>
+
+    <div class="content-section d-flex align-items-center">
+      <img
+        style="width: 25%; border-radius: 10px"
+        src="https://il.mahidol.ac.th/e-media/computer/evolution/logos/apple.gif"
+        alt="Univac 1"
+      />
+      <div class="ms-3">
+        <div class="section-title">
+            บริษัท Apple
+        </div>
+        <p class="section-content">
+          <i>
+            บุกเบิกสถาปัตกรรมคอมพิวเตอร์และเป็นผู้เริ่มต้นใช้ GUI หรือใช้รูปภาพในการสื่อสารกับผู้ใช้ เช่น รับคำสั่งจากการคลิกที่ภาพ icon ต่าง ๆ ทำให้คอมพิวเตอร์ใช้งานง่ายจนถึงทุกวันนี้</i
+          >
+        </p>
+      </div>
+    </div>
+
+
+    <div class="content-section d-flex align-items-center">
+      <img
+        style="width: 25%; border-radius: 10px"
+        src="https://il.mahidol.ac.th/e-media/computer/evolution/logos/apricotLogo_transp.gif"
+        alt="Univac 1"
+      />
+      <div class="ms-3">
+        <div class="section-title">
+            Apricot Computers plc (UK)
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="content-section d-flex align-items-center">
+        <img
+          style="width: 25%; border-radius: 10px"
+          src="https://il.mahidol.ac.th/e-media/computer/evolution/logos/atarlogo.gif"
+          alt="Univac 1"
+        />
+        <div class="ms-3">
+          <div class="section-title">
+              Apricot Computers plc (UK)
+          </div>
+          <p class="section-content">
+            <i> เป็นบริษัทผู้บุกเบิกทางด้านอุปกรณ์ในการเล่นเกมคอมพิวเตอร์</i
+            >
+          </p>
+        </div>
+      </div>
+
+      <div class="content-section d-flex align-items-center">
+        <img
+          style="width: 25%; border-radius: 10px"
+          src="https://il.mahidol.ac.th/e-media/computer/evolution/logos/clogo.gif"
+          alt="Univac 1"
+        />
+        <div class="ms-3">
+          <div class="section-title">
+            Commodore International
+          </div>
+          <p class="section-content">
+            <i>เป็นบริษัทผลิตอุปกรณ์ไฟฟ้าต่างๆ รวมทั้งคอมพิวเตอร์ รุ่น C64</i
+            >
+          </p>
+        </div>
+      </div>
+
+      <div class="content-section d-flex align-items-center">
+        <img
+          style="width: 25%; border-radius: 10px"
+          src="https://il.mahidol.ac.th/e-media/computer/evolution/logos/craylogo.gif"
+          alt="Univac 1"
+        />
+        <div class="ms-3">
+          <div class="section-title">
+            Cray
+          </div>
+          <p class="section-content">
+            <i>เป็นบริษัทที่ผลิตเครื่องซูเปอร์คอมพิวเตอร์</i
+            >
+          </p>
+        </div>
+      </div>
+
+
+      <div class="content-section d-flex align-items-center">
+        <img
+          style="width: 25%; border-radius: 10px"
+          src="https://il.mahidol.ac.th/e-media/computer/evolution/logos/digital-logo-80pt.gif"
+          alt="Univac 1"
+        />
+        <div class="ms-3">
+          <div class="section-title">
+            Digital Equipment Corporation
+          </div>
+          <p class="section-content">
+            <i>เป็นบริษัทผลิตคอมพิวเตอร์</i
+            >
+          </p>
+        </div>
+      </div>
+
+
+      <div class="content-section d-flex align-items-center">
+        <img
+          style="width: 25%; border-radius: 10px"
+          src="https://il.mahidol.ac.th/e-media/computer/evolution/logos/epson.gif"
+          alt="Univac 1"
+        />
+        <div class="ms-3">
+          <div class="section-title">
+            Epson
+          </div>
+          <p class="section-content">
+            <i>เป็นผู้ผู้ผลิตคอมพิวเตอร์และอุปกรณ์ต่อพ่วงต่างๆ โดยเฉพาะอย่างยิ่งเครื่องพิมพ์สี ที่ได้รับความนิยมอย่างสูงในตลาด</i
+            >
+          </p>
+        </div>
+      </div>
+
+
+      <div class="content-section d-flex align-items-center">
+        <img
+          style="width: 25%; border-radius: 10px"
+          src="https://il.mahidol.ac.th/e-media/computer/evolution/logos/fairchild_semiconductor_logo.gif"
+          alt="Univac 1"
+        />
+        <div class="ms-3">
+          <div class="section-title">
+            Fairchild Semiconductor Corporation
+          </div>
+          <p class="section-content">
+            <i>เป็นแหล่งพัฒนาและผลิตชิพ (chip) ให้กับคอมพิวเตอร์</i
+            >
+          </p>
+        </div>
+      </div>
+
+
+      <div class="content-section d-flex align-items-center">
+        <img
+          style="width: 25%; border-radius: 10px"
+          src="https://il.mahidol.ac.th/e-media/computer/evolution/logos/HP.gif"
+          alt="Univac 1"
+        />
+        <div class="ms-3">
+          <div class="section-title">
+            Hewlett Packard(HP)
+          </div>
+          <p class="section-content">
+            <i>ผลิตทั้งเครื่องคอมพิวเตอร์แบบตั้งโต๊ะ โน้ตบุค PDA และอุปกรณ์ต่อพ่วงอื่น ๆ</i
+            >
+          </p>
+        </div>
+      </div>
+
+
+      <div class="content-section d-flex align-items-center">
+        <img
+          style="width: 25%; border-radius: 10px"
+          src="https://il.mahidol.ac.th/e-media/computer/evolution/logos/hitachi_2004.gif"
+          alt="Univac 1"
+        />
+        <div class="ms-3">
+          <div class="section-title">
+            Hitachi
+          </div>
+          <p class="section-content">
+            <i>ผลิตฮาร์ดดิสก์ (hard disks) เข้าสู่ตลาดคอมพิวเตอร์</i
+            >
+          </p>
+        </div>
+      </div>
+
+
+
+      <div class="content-section d-flex align-items-center">
+        <img
+          style="width: 25%; border-radius: 10px"
+          src="https://il.mahidol.ac.th/e-media/computer/evolution/logos/ibm_logo1999.gif"
+          alt="Univac 1"
+        />
+        <div class="ms-3">
+          <div class="section-title">
+            IBM 
+          </div>
+          <p class="section-content">
+            <i>เป็นบริษัทที่พัฒนาและผลิตคอมพิวเตอร์ส่วนบุคคลเป็นแห่งแรก ซึ่งเป็นผลให้ประชานชนทั่วไปสามารถเป็นเจ้าของคอมพิวเตอร์ได้ 
+                และทำให้คอมพิวเตอร์ได้รับการนิยมอย่างกว้างขวาง</i
+            >
+          </p>
+        </div>
+      </div>
+
+
+      <div class="content-section d-flex align-items-center">
+        <img
+          style="width: 25%; border-radius: 10px"
+          src="https://il.mahidol.ac.th/e-media/computer/evolution/logos/intel.gif"
+          alt="Univac 1"
+        />
+        <div class="ms-3">
+          <div class="section-title">
+            Intel
+          </div>
+          <p class="section-content">
+            <i>ผลิตหน่วยประมวลผล (processor) ตั้งแต่รุ่น X จนถึงหน่วยประมวลผลตระกูล Pentium ปัจจุบันนี้ 
+                บริษัทนี้ได้พัฒนาเทคโนโลยีใหม่คือ Intel Centrino Mobile</i
+            >
+          </p>
+        </div>
+      </div>
+
+
+      <div class="content-section d-flex align-items-center">
+        <img
+          style="width: 25%; border-radius: 10px"
+          src="https://il.mahidol.ac.th/e-media/computer/evolution/logos/maxislogo_white.gif"
+          alt="Univac 1"
+        />
+        <div class="ms-3">
+          <div class="section-title">
+            Maxis, Inc.
+          </div>
+          <p class="section-content">
+            <i> เป็นบริษัทที่พัฒนาโปรแกรมทางด้านบันเทิง เช่นเกม ซิมซิตี้</i
+            >
+          </p>
+        </div>
+      </div>
+
+
+      <div class="content-section d-flex align-items-center">
+        <img
+          style="width: 25%; border-radius: 10px"
+          src="https://il.mahidol.ac.th/e-media/computer/evolution/logos/microsoft_logo.gif"
+          alt="Univac 1"
+        />
+        <div class="ms-3">
+          <div class="section-title">
+            Microsoft
+          </div>
+          <p class="section-content">
+            <i>เป็นบริษัทซอฟต์แวร์ที่ใหญ่ที่สุดในโลก ผลิตโปรแกรมต่างๆ ทั้งระบบปฏิบัติการ (DOS และ WINDOWS รุ่นต่าง ๆ) 
+                และโปรแกรมอำนวยความสะดวกในการทำงานประจำวัน เช่น โปรแกรม Internet Explore, Microsoft Office เป็นต้น</i
+            >
+          </p>
+        </div>
+      </div>
+
+
+      <div class="content-section d-flex align-items-center">
+        <img
+          style="width: 25%; border-radius: 10px"
+          src="https://il.mahidol.ac.th/e-media/computer/evolution/logos/Moto_logo.gif"
+          alt="Univac 1"
+        />
+        <div class="ms-3">
+          <div class="section-title">
+            Motorola Semiconductor Products
+          </div>
+          <p class="section-content">
+            <i></i
+            >
+          </p>
+        </div>
+      </div>
+
+
+      <div class="content-section d-flex align-items-center">
+        <img
+          style="width: 25%; border-radius: 10px"
+          src="https://il.mahidol.ac.th/e-media/computer/evolution/logos/nec-logo.gif"
+          alt="Univac 1"
+        />
+        <div class="ms-3">
+          <div class="section-title">
+              NEC
+          </div>
+          <p class="section-content">
+            <i>นอกจากผลิตเครื่องใช้ไฟฟ้าแล้ว บริษัท NEC ยังผลิตอุปกรณ์ต่อพ่วงกับคอมพิวเตอร์ เช่น จอภาพ</i
+            >
+          </p>
+        </div>
+      </div>
+
+
+      <div class="content-section d-flex align-items-center">
+        <img
+          style="width: 25%; border-radius: 10px"
+          src="https://il.mahidol.ac.th/e-media/computer/evolution/logos/netscapelogo.gif"
+          alt="Univac 1"
+        />
+        <div class="ms-3">
+          <div class="section-title">
+            Netscape
+          </div>
+          <p class="section-content">
+            <i>เป็นผู้พัฒนาโปรแกรมเว็บบราวเซอร์ คือ Netscape</i
+            >
+          </p>
+        </div>
+      </div>
+
+
+      <div class="content-section d-flex align-items-center">
+        <img
+          style="width: 25%; border-radius: 10px"
+          src="https://il.mahidol.ac.th/e-media/computer/evolution/logos/novell_logo.gif"
+          alt="Univac 1"
+        />
+        <div class="ms-3">
+          <div class="section-title">
+            Novell inc
+          </div>
+          <p class="section-content">
+            <i>เป็นบริษัทแรกที่ใช้ระบบ Directorysystem กับเครือข่ายระหว่างคอมพิวเตอร์ส่วนบุคคล</i
+            >
+          </p>
+        </div>
+      </div>
+
+
+
+      <div class="content-section d-flex align-items-center">
+        <img
+          style="width: 25%; border-radius: 10px"
+          src="https://il.mahidol.ac.th/e-media/computer/evolution/logos/apricotLogo_transp.gif"
+          alt="Univac 1"
+        />
+        <div class="ms-3">
+          <div class="section-title">
+              Apricot Computers plc (UK)
+          </div>
+          <p class="section-content">
+            <i>-</i
+            >
+          </p>
+        </div>
+      </div>
+
+
+      <div class="content-section d-flex align-items-center">
+        <img
+          style="width: 25%; border-radius: 10px"
+          src="https://il.mahidol.ac.th/e-media/computer/evolution/logos/sunlogo.jpg"
+          alt="Univac 1"
+        />
+        <div class="ms-3">
+          <div class="section-title">
+            Sun Microsystems
+          </div>
+          <p class="section-content">
+            <i>เป็นผู้ผลิตเครื่องคอมพิวเตอร์สมรรถนะสูงสำหรับเป็น
+                 สถานีงานและคอมพิวเตอร์แม่ข่าย อีกทั้งยังสร้างภาษาจาวา (Java) 
+                 ซึ่งเป็นภาษาเขียนโปรแกรมเชิงวัตถุ (object oriented) ที่มีประสิทธภาพมาก</i
+            >
+          </p>
+        </div>
+      </div>
+
+
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
